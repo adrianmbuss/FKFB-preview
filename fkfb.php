@@ -1,7 +1,21 @@
 <?php
 
 /**
- * fk-fb.ca - News Link Sharer
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * https://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+/**
+ * fkfb.ca - News Link Sharer
  *
  * PURPOSE:
  *   Facebook suppresses links to certain news sites (CBC, Globe and Mail, etc)
@@ -18,10 +32,10 @@
  *      original article
  *   5. Fetched og tags are cached on disk for 1 hour to avoid hammering news sites
  *
- * USAGE:
- *   - Helper UI:  https://fk-fb.ca/
- *   - Direct:     https://fk-fb.ca/index.php?https://www.cbc.ca/news/...
- *   - Debug mode: https://fk-fb.ca/index.php?debug&https://www.cbc.ca/news/...
+ * USAGE Examples:
+ *   - Helper UI:  https://fkfb.ca/
+ *   - Direct:     https://fkfb.ca/index.php?https://www.cbc.ca/news/...
+ *   - Debug mode: https://fkfb.ca/index.php?debug&https://www.cbc.ca/news/...
  *
  * SECURITY:
  *   - Only URLs from the $urls allowlist are accepted
